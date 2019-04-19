@@ -1,0 +1,342 @@
+body {
+    margin-left: 20%;
+    margin-right: 10%;
+    font: 400 14px / 1.7em  Montserrat, Arial, sans-serif;
+    color: #2e2e2e;
+}
+
+/*Links*/
+a {
+    color: #2e2e2e;
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.8;
+}
+
+/*Images*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Page Header*/
+.page-header {
+margin: 0 auto;
+max-width: 1900px;
+    width: 100%;
+}
+
+.container-top-black {
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #2e2e2e;
+}
+
+.container-top-black ul div {
+height: 39px;
+display: inline-block;
+justify-content: baseline;
+}
+
+.container-top-black ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-black {
+  display: inline-block;
+  position: relative;
+}
+
+.images {
+    float: left;
+}
+.txt {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+
+/*Logo div*/
+.container-logo {
+    justify-content: space-between;
+    display: flex;
+    background-image: url("../img/background-grey-ready.png");
+    height:90px;
+    width: 100%;
+    margin: 0;
+}
+.logo {
+margin: 25px;
+width: 251px;
+height: 40px;
+float: left;
+}
+
+.clear-both {
+    clear: both;
+}
+.container-logo .flag {
+    display: inline;
+}
+/*Menu*/
+.navigation {
+    /* Style for nav */
+width: 2260px;
+height: 61px;
+background-color: #ffffff;
+display: inline-block;
+}
+.menu-items  {
+    margin: 0;
+    padding: 0;
+    list-style: none;   
+}
+.menu-items li {
+    margin: 0 4px;
+    display: inline-block;
+}
+.menu-items li a {
+    width: 739px;
+    height: 16px;
+    padding: 23px 23px;
+    color: #2e2e2e;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.menu-items .active {
+
+}
+.directory {
+
+}
+
+/*page-section-item-section*/
+
+
+.page-section-item-section {
+display: flex;
+flex-direction: row;
+}
+
+/* LEFT */
+
+.leftbar-slider {
+    float:left;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+/* MIDDLE */
+
+.middle { 
+    float:left;
+    width: 100%;
+}
+
+/* RIGHT */
+
+.rightbar {
+    float: right;
+}
+
+.small-slider {
+    display: flex;
+    flex-direction: row;
+}
+
+.discount, .option, .negotiations {
+    float:left;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+}
+
+.length {
+
+}
+
+.accessibility img {
+float: left;
+}
+.accessibility p {
+    font-size: 11px;
+}
+.caliber h4 {
+    color: red;
+    font-size: 10px;
+}
+.discount {
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    margin: 0;
+}
+.page-section-advices {
+}
+.order {
+   
+flex-direction: column;
+}
+.negotiations {
+    display: flex;
+    flex-direction: row;
+}
+.have-you img {
+float: left;
+}
+.negotiations h4 {
+    color: red;
+}
+.h4 {
+    color:red;
+}
+.have-you .black {
+    color: black;
+}
+.feature-box {
+    
+}
+
+/* page-section-adjust-section */
+
+.page-section-adjust-section {
+    margin-bottom: 50px;
+
+}
+.google-example {
+    display:inline; 
+    float:left;
+    justify-content: center;
+}
+.google-example img {
+    float: left;
+}
+.google-example h3 h5 {
+    float: right;
+}
+.all-googles {
+    width: 100%;
+}
+/*page-section-description*/
+
+.page-section-description {
+display: flex;
+justify-content: space-between;
+}
+.left {
+    flex-direction: column;
+    margin-right: 55px;
+
+}
+.gun-description p {
+    font-size: 14px;
+    font-family: Arial;
+}
+.left-about-gun img {
+float: left;
+margin-top: 15px;
+
+}
+.left-about-gun h3 {
+    float: left;
+    margin-left: 20px;
+}
+
+.left-questions p {
+    font-size: 14px;
+    font-family: Arial;
+}
+.accordions {
+
+}
+.question {
+
+}
+.question-example h4 {
+float: left;
+}
+.question-example img {
+    float: right;
+}
+
+.answers h4 {
+float: left;
+}
+.answers img {
+    float: right;
+}
+
+/* RIGHT SIDE*/
+
+.right-services {
+
+}
+
+/*page-section-advices*/
+
+.page-section-advices {
+
+}
+
+
+.advices {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.advice-1 {
+    float: left;
+    flex-direction: row;
+}
+.create-paintings {
+    display: flex;
+    flex-direction: row;
+}
+.equipment {
+    display: flex;
+    flex-direction: flex-start;
+}
+.advice-image .advice-1 {
+float: left;
+}
+.advice-paragraph p {
+    float: right;
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 30px;
+}
+.advice-paragraph {
+    width: 50%;
+}
+.advice-2 {
+float: right;
+}
+
+/*FOOTER*/
+.footer {
+    background-image: url("../img/shadow-mountains-ready1.png");
+    width: 100%;
+}
+.footer-summary {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+.info .data .my-account {
+   
+}
+.logo-IAI {
+    display: flex;
+    justify-content: center;
+}
+
